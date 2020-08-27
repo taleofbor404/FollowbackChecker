@@ -1,6 +1,6 @@
 ---
 title: "{{ env.NOTFOLLOWING }} has unfollowed you"
-assignees: polcats
+assignees: taleofbor404
 labels: invalid
 ---
 
