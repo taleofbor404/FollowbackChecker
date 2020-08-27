@@ -1,8 +1,8 @@
 import urllib.request
 import bs4
 
-g_followers = urllib.request.urlopen('https://github.com/polcats?tab=followers').read()
-g_following = urllib.request.urlopen('https://github.com/polcats?tab=following').read()
+g_followers = urllib.request.urlopen('https://github.com/taleofbor404?tab=followers').read()
+g_following = urllib.request.urlopen('https://github.com/taleofbor404?tab=following').read()
 
 def parseHTML(input):
     html = bs4.BeautifulSoup(input, features='html.parser')
